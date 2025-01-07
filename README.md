@@ -1,7 +1,7 @@
 
 ## Profile
-📞 **Email** | codefuling@gmail.com <br />
-✉ **Phone** | 010-4709-9813
+📞 **Email** | byungwook.dev@gmail.com <br />
+✉ **Phone** | 010-4108-2302
 
 
 
