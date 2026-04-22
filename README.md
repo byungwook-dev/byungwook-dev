@@ -158,14 +158,3 @@ NLP 전 과정을 실습하며 다양한 AI 기능을 구현한 프로젝트입�
 | 명지대학교 문헌정보학과 | 명지대학교 | 2019 ~ 2026 | — |
 
 ---
-
-## 📊 GitHub Stats
-
-![Byungwook's GitHub stats](https://github-readme-stats.vercel.app/api?username=byungwook-dev&show_icons=true&theme=default&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=byungwook-dev&layout=compact&theme=default&hide_border=true)
-
----
-
-<p align="center">
-  <i>"사용자의 흐름을 따라가며, 작은 기능도 큰 서비스 속에서 의미 있게 만들겠습니다."</i>
-</p>
