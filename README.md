@@ -79,6 +79,9 @@
 - `--no-cache` 옵션 적용 및 Secrets 관리로 보안 강화
 - 운영 검증 절차 정립 (`docker ps`, `docker logs`, `printenv`)
 
+**실제 배포된 URL**: http://3.35.27.169/
+**GitHub**: https://github.com/byungwook-dev/Sensitive
+
 ---
 
 ### 2. 🎭 ShowU — 예술 플랫폼
@@ -92,6 +95,9 @@
 - 좌석·시간·날짜 **중복 예약 방지 로직** 설계 (동시성 제어)
 - **토스페이먼츠 결제 연동** — 실결제 API 연동 및 결제 검증 흐름 구현
 - React 기반 좌석 선택 UI 및 실시간 예약 현황 반영
+
+**GitHub**: https://github.com/byungwook-dev/front-showu(프론트엔드)
+**GitHub**: https://github.com/byungwook-dev/back-showu (백엔드)
 
 ---
 
@@ -107,6 +113,8 @@
 - Spring Boot + MyBatis + Oracle DB 기반 서버-DB 연동 설계
 - Thymeleaf 서버사이드 렌더링으로 커뮤니티 전체 흐름 구현
 
+**GitHub**: https://github.com/byungwook-dev/connection
+
 ---
 
 ### 4. 🤖 AI 자연어처리 챗봇 프로젝트
@@ -119,6 +127,10 @@ NLP 전 과정을 실습하며 다양한 AI 기능을 구현한 프로젝트입�
 - **RAG(Retrieval-Augmented Generation)** 구조 적용 문서 요약 기능
 - 유튜브 자막 기반 **영상 요약** 및 **학습용 퀴즈 자동 생성** 기능
 - 외부 API 없이 로컬 환경에서 단독 실행 가능한 챗봇 구현 (의존도 최소화)
+
+**GitHub**: 
+- **AI_study**(5개월 학습): https://github.com/byungwook-dev/AI_study
+- **NLP**(1개월 프로젝트): https://github.com/byungwook-dev/NLP
 
 ---
 
