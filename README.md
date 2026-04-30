@@ -96,8 +96,9 @@
 - **토스페이먼츠 결제 연동** — 실결제 API 연동 및 결제 검증 흐름 구현
 - React 기반 좌석 선택 UI 및 실시간 예약 현황 반영
 
-**GitHub**: https://github.com/byungwook-dev/front-showu(프론트엔드)
-**GitHub**: https://github.com/byungwook-dev/back-showu (백엔드)
+**GitHub**:
+- **프론트엔드**: https://github.com/byungwook-dev/front-showu
+- **백엔드**: https://github.com/byungwook-dev/back-showu
 
 ---
 
