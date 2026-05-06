@@ -14,7 +14,17 @@
 - 🌏 영어 OPIc IH (Intermediate High)
 - 📍 서울 거주 / 풀스택 개발자 지향
 
-백엔드(Spring Boot, Node.js)부터 프론트엔드(React), AI 연동(LangChain, Claude API), 클라우드 배포(Docker, Kubernetes, AWS)까지 서비스 전체 흐름을 직접 설계하고 구현합니다.
+---
+
+🎯 핵심 역량:
+- Python 데이터 분석 (ShowU, 양면 시장 분석)
+- AI/NLP (LangChain, Claude API, RAG 아키텍처)
+- 풀스택 개발 (Spring Boot, React, Node.js)
+- 클라우드 배포 (AWS, Docker, Kubernetes)
+
+---
+
+백엔드(Spring Boot, Node.js)부터 프론트엔드(React), AI 연동(LangChain, Claude API), 클라우드 배포(Docker, Kubernetes, AWS)까지 서비스 전체 흐름을 설계하고 구현합니다.
 
 ---
 
