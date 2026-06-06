@@ -57,9 +57,9 @@
 
 ---
 
-## 🚀 Projects
+## Projects
 
-### 1. 🎭 ShowU — 예술가와 팬을 연결하는 통합 플랫폼
+### 1. ShowU — 예술가와 팬을 연결하는 통합 플랫폼
 
 **Tech:** `React 18.3` `Redux 5.0` `Express 4.21` `Mongoose 8.9` `MongoDB Atlas` `Toss Payments SDK 2.3` `k6 0.55.0`
 
@@ -80,7 +80,7 @@ Reservation 도메인 풀스택 + 경매/굿즈 결제 파트 담당.
 
 ---
 
-### 2. 🤖 PrivateGPT — 완전 로컬 기반 문서 RAG 챗봇
+### 2. PrivateGPT — 완전 로컬 기반 문서 RAG 챗봇
 
 **Tech:** `Python` `LangChain 1.3.1` `Ollama (Mistral)` `FAISS` `CacheBackedEmbeddings` `Streamlit`
 
@@ -101,7 +101,7 @@ Reservation 도메인 풀스택 + 경매/굿즈 결제 파트 담당.
 
 ---
 
-### 3. 🏆 TeamBuilder AI — AI 기반 지능형 팀/반 자동 배정 시스템
+### 3. TeamBuilder AI — AI 기반 지능형 팀/반 자동 배정 시스템
 
 **Tech:** `Next.js 16` `TypeScript` `Claude Sonnet 4 API` `Docker` `AWS EC2` `GitHub Actions`
 
@@ -130,55 +130,7 @@ Reservation 도메인 풀스택 + 경매/굿즈 결제 파트 담당.
 
 | 자격증 | 발급 기관 | 취득일 |
 |--------|----------|--------|
-| 정보처리기사 | 한국산업인력공단**Tech:** `Python` `LangChain 1.3.1` `Ollama (Mistral)` `FAISS` `CacheBackedEmbeddings` `Streamlit`
-
-외부 API 없이 로컬에서만 동작하는 문서 기반 RAG 챗봇.
-5개월 LangChain/RAG/NLP 학습 후 9개 챗봇 프로젝트 중 프라이버시와 성능 최적화에 집중한 대표 프로젝트.
-
-| 지표 | 개선 전 | 개선 후 |
-|------|--------|--------|
-| 임베딩 처리 시간 | 118.27초 ❌ | 0.09초 ✅ |
-| 속도 개선율 | — | 99.9% |
-
-- OpenAI API 대신 Ollama + Mistral 로컬 모델 → 데이터 외부 전송 없는 프라이버시 보장 구조
-- `CacheBackedEmbeddings`로 임베딩 캐싱 → 처리 시간 118.27초 → 0.09초 (99.9% 단축)
-- `condense_llm`으로 이전 대화 반영한 질문 재구성 → 맥락 단절 문제 해결
-- `similarity_score_threshold` 적용 → 관련성 낮은 컨텍스트 제외, 할루시네이션 감소
-
-**GitHub**: [NLP/09_PrivateGPT](https://github.com/byungwook-dev/NLP/tree/main/09_PrivateGPT)
-
----
-
-### 3. 🏆 TeamBuilder AI — AI 기반 지능형 팀/반 자동 배정 시스템
-
-**Tech:** `Next.js 16` `TypeScript` `Claude Sonnet 4 API` `Docker` `AWS EC2` `GitHub Actions`
-
-> 제1회 K.I.T. 바이브코딩 공모전 출품작 (506팀 참가)
-
-교육기관의 수작업 팀/반 배정을 AI로 자동화한 웹 서비스.
-기획 총괄 + AWS 배포 자동화(CI/CD 파이프라인 구축) 담당.
-
-| 지표 | 개선 전 | 개선 후 |
-|------|--------|--------|
-| 배포 성공률 | ~70% ❌ | 100% ✅ |
-| 평균 배포 시간 | 수동 SSH | 약 2분 ✅ |
-| EBS 용량 | 7.6GB | 30GB ✅ |
-| 팀 균형 점수 | — | 95.4점 ✅ |
-
-- GitHub Actions 86회 중 26회 실패 → `fetch-depth:0` + `--no-cache` 표준화, 9개 Secrets 관리 → 성공률 100%
-- `ANTHROPIC_API_KEY` Dockerfile ARG 제외 → 런타임 전용 주입으로 이미지 레이어 키 노출 방지
-- Silent Failure(exit 0인데 구버전 유지) → `docker images`로 누적 이미지 원인 특정, EBS 30GB 무중단 확장
-- 6단계 하이브리드 알고리즘 + Claude Sonnet 4 병렬 실행 → 균형 점수 95.4점, 팀 간 성적 차이 0.1점
-
-**배포**: http://3.35.27.169/ · **GitHub**: [byungwook-dev/Sensitive](https://github.com/byungwook-dev/Sensitive)
-
----
-
-## 📜 Certifications
-
-| 자격증 | 발급 기관 | 취득일 |
-|--------|----------|--------|
-| 정보처리기사 | 한국산업인력공단 | 2025.12.28 |
+| 정보처리기사 | 과학기술정보통신부 | 2025.12.28 |
 | SQLD (SQL 개발자) | 한국데이터산업진흥원 | 2025.12.12 |
 | Microsoft Certified: Azure AI Fundamentals | Microsoft | 2024.09.21 |
 | Microsoft Certified: Azure Data Fundamentals | Microsoft | 2024.09.21 |
