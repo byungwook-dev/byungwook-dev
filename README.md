@@ -130,7 +130,7 @@ Reservation 도메인 풀스택 + 경매/굿즈 결제 파트 담당.
 
 | 자격증 | 발급 기관 | 취득일 |
 |--------|----------|--------|
-| 정보처리기사 | 과학기술정보통신부 | 2025.12.28 |
+| 정보처리기사 | 한국산업인력공단 | 2025.12.28 |
 | SQLD (SQL 개발자) | 한국데이터산업진흥원 | 2025.12.12 |
 | Microsoft Certified: Azure AI Fundamentals | Microsoft | 2024.09.21 |
 | Microsoft Certified: Azure Data Fundamentals | Microsoft | 2024.09.21 |
