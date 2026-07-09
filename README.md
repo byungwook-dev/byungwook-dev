@@ -1,7 +1,7 @@
 # 안녕하세요, 민병욱입니다!
 
 [![GitHub](https://img.shields.io/badge/GitHub-byungwook--dev-181717?style=flat-square&logo=github)](https://github.com/byungwook-dev)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Notion-000000?style=flat-square&logo=notion)](https://app.notion.com/p/by-Byungwook-dev-36505e05fc2f80cd831cd45ef9059112)
+[![Portfolio](https://img.shields.io/badge/GitHub-byungwook--dev-181717?style=flat-square&logo=github)](https://byungwook-dev.github.io/portfolio/)
 ![Visitor](https://komarev.com/ghpvc/?username=byungwook-dev&style=flat-square&color=orange)
 
 ---
