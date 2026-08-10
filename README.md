@@ -126,6 +126,27 @@ Reservation 도메인 풀스택 + 경매/굿즈 결제 파트 담당.
 
 ---
 
+### 4. Nexus MCP — 멀티 AI 에이전트 공유 메모리 MCP 서버
+**Tech:** `Python` `FastMCP` `SQLite (WAL)` `pytest`
+
+여러 AI 에이전트가 동일한 공유 메모리에 동시 접근할 때 발생하는 충돌을 제어하는 MCP 서버.
+ShowU에서 해결한 Race Condition 경험을 AI 에이전트 환경에 적용해 직접 설계.
+
+| 지표 | 내용 |
+|------|------|
+| 동시 스레드 | 100개 (ThreadPoolExecutor) |
+| 반복 검증 횟수 | 1,000회 |
+| 버전 손실 | 0건 ✅ |
+| 재시작 후 복구율 | 100% ✅ |
+
+- Anthropic 공식 Memory MCP가 JSON 기반 → 동시 접근 제어 없어 직접 구현
+- `itertools.count()` 기반 단조증가 seq로 선착순 판정 (Windows `time.time()` 15ms 해상도 한계 우회)
+- 충돌 해결 전략 3가지 구현: `last_write_wins` / `first_write_wins` / `merge`
+- `renew_lock` heartbeat 패턴으로 Zombie Lock 방지 (짧은 TTL + 주기적 갱신)
+- SQLite WAL 모드로 영속화 → 프로세스 종료 후 재시작 시 100% 데이터 복구 검증
+
+**GitHub**: [byungwook-dev/Nexus-mcp](https://github.com/byungwook-dev/Nexus-mcp)
+
 ## 📜 Certifications
 
 | 자격증 | 발급 기관 | 취득일 |
