@@ -147,6 +147,8 @@ ShowU에서 해결한 Race Condition 경험을 AI 에이전트 환경에 적용�
 
 **GitHub**: [byungwook-dev/NexusMcp](https://github.com/byungwook-dev/NexusMcp)
 
+---
+
 ## 📜 Certifications
 
 | 자격증 | 발급 기관 | 취득일 |
