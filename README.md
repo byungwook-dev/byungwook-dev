@@ -120,7 +120,7 @@ Reservation 도메인 풀스택 + 경매/굿즈 결제 파트 담당.
 - GitHub Actions 86회 중 26회 실패 → `fetch-depth:0` + `--no-cache` 표준화, 9개 Secrets 관리 → 성공률 100%
 - `ANTHROPIC_API_KEY` Dockerfile ARG 제외 → 런타임 전용 주입으로 이미지 레이어 키 노출 방지
 - Silent Failure(exit 0인데 구버전 유지) → `docker images`로 누적 이미지 원인 특정, EBS 30GB 무중단 확장
-- 6단계 하이브리드 알고리즘 + Claude Sonnet 4 병렬 실행 → 균형 점수 92.8점, 팀 간 성적 차이 0.1점
+- 4단계 하이브리드 알고리즘 + Claude Sonnet 4 병렬 실행 → 균형 점수 92.8점, 팀 간 성적 차이 0.1점
 
 **배포**: http://3.35.27.169/ · **GitHub**: [byungwook-dev/Sensitive](https://github.com/byungwook-dev/Sensitive)
 
