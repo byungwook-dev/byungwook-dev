@@ -168,9 +168,9 @@ ShowU에서 해결한 Race Condition 경험을 AI 에이전트 환경에 적용�
 |------|------|------|
 | JAVA 1~2 | 2022.09 ~ 2022.11 | 60h |
 | Python | 2023.01 ~ 2023.02 | 32h |
-| 웹개발 2~4 (SpringBoot, MyBatis, OracleDB) | 2023.07 ~ 2023.10 | 162h |
-| 웹개발 4~6 (React, JS, Node.js, MongoDB) | 2024.02 ~ 2024.05 | 162h |
-| 프론트엔드 1~6 | 2024.07 ~ 2025.01 | 180h |
+| 웹개발 2~4 (Java, DBMS, JSP) | 2023.07 ~ 2023.10 | 162h |
+| 웹개발 4~6 (SpringBoot, MyBatis, OracleDB) | 2024.02 ~ 2024.05 | 162h |
+| 프론트엔드 1~6 (React, JS, Node.js, MongoDB) | 2024.07 ~ 2025.01 | 180h |
 | AI활용 자연어처리 챗봇 1~6 (Python, RAG, HuggingFace) | 2025.01 ~ 2025.07 | 180h |
 | 멀티클라우드 1 (Docker, Kubernetes) | 2025.08 | 59.5h |
 | 멀티클라우드 2 (AWS) | 2025.09 | 59.5h |
